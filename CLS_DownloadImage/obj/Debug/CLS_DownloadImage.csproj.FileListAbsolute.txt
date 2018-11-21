@@ -1,0 +1,13 @@
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\obj\Debug\CLS_DownloadImage.csproj.CoreCompileInputs.cache
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\NLog.config
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\CLS_DownloadImage.exe.config
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\CLS_DownloadImage.exe
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\CLS_DownloadImage.pdb
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\NLog.dll
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\NLog.xml
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\obj\Debug\CLS_DownloadImage.exe
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\obj\Debug\CLS_DownloadImage.pdb
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\obj\Debug\CLS_DownloadImage.csprojResolveAssemblyReference.cache
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_DownloadImage\bin\Debug\AlbumDictionary_1.json

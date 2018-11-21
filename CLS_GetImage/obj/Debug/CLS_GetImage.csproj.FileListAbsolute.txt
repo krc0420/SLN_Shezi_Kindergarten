@@ -1,0 +1,12 @@
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\NLog.config
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\CLS_GetImage.exe.config
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\CLS_GetImage.exe
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\CLS_GetImage.pdb
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\NLog.dll
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\bin\Debug\NLog.xml
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\obj\Debug\CLS_GetImage.csprojResolveAssemblyReference.cache
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\obj\Debug\CLS_GetImage.csproj.CoreCompileInputs.cache
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\obj\Debug\CLS_GetImage.exe
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetImage\obj\Debug\CLS_GetImage.pdb

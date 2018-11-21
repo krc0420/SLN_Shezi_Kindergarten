@@ -1,0 +1,12 @@
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\CLS_GetAlbum.exe.config
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\CLS_GetAlbum.exe
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\CLS_GetAlbum.pdb
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\obj\Debug\CLS_GetAlbum.csproj.CoreCompileInputs.cache
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\obj\Debug\CLS_GetAlbum.exe
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\obj\Debug\CLS_GetAlbum.pdb
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\NLog.config
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\Newtonsoft.Json.dll
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\NLog.dll
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\Newtonsoft.Json.xml
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\bin\Debug\NLog.xml
+C:\Users\suyingwei\source\repos\SLN_Shezi_Kindergarten\CLS_GetAlbum\obj\Debug\CLS_GetAlbum.csprojResolveAssemblyReference.cache
