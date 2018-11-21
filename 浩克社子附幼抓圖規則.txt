@@ -1,0 +1,66 @@
+
+album base URI
+	http://web.stps.tp.edu.tw/eweb/module/activephoto/getPhotoData.php?home=k004&sn=4606&sn_ids=3532
+
+一、所有相簿集合
+    http://web.stps.tp.edu.tw/eweb/module/activephoto/getBookData.php?home=k004&sn=4606&sn_ids=3532
+	用 ; 拆解相簿 list
+	接著用 , 拆解參數 list
+	    範例：
+		1,畢業季,2018年6月11日,13,activephoto_auto/k004/k004_3785_photo92_500//photo_gd12090322271_tn.jpg,64,0,0,4748,1,1;
+		2,主題活動-幫助我們的人。戶外參觀-警察局,2018年5月18日,17,activephoto_auto/k004/k004_9423_photo171_500//photo_gd18054206315_tn.jpg,206,0,0,4717,1,1;
+		3,母親節系列活動,2018年5月12日,17,activephoto_auto/k004/k004_47451_photo204_500//photo_gd16105344445_tn.jpg,32,0,0,4715,1,1
+                12,過年紅不讓,2017年12月27日,38,activephoto_auto/k004/k004_1005_photo270_500//photo_gd08032736387_tn.jpg,51,0,0,4566,1,1
+	    [0] sequence
+            [1] album name
+	    [2] date
+	    [4] jpg url path
+	    [5] image count
+	    [8] book_id
+
+二、產生目錄文件(json)
+http://web.stps.tp.edu.tw/eweb/module/activephoto/getPhotoData.php?home=k004&sn=4606&sn_ids=3532&book_id=4566&countup=yes
+http://web.stps.tp.edu.tw/eweb/module/activephoto/getPhotoData.php?home=k004&sn=4606&sn_ids=3532&book_id=4715&countup=yes
+
+三、組合出相簿URLx
+	URL組合：album base URI + &book_id= + [8] + &countup=yes
+	範例：
+	    http://web.stps.tp.edu.tw/eweb/module/activephoto/getPhotoData.php?home=k004&sn=4606&sn_ids=3532&book_id=4748&countup=yes
+
+四、解析相簿下所有資料
+	image base URI
+	    http://web.stps.tp.edu.tw/eweb/module/activephoto/
+
+	範例：
+		畢業季
+		2018年6月11日
+		1;1
+		參觀國小圖書館
+		activephoto_auto/k004/k004_3785_photo92//photo_gd12090322271_tn.jpg
+		activephoto_auto/k004/k004_3785_photo92_500//photo_gd12090322271_tn.jpg
+		activephoto/k004/k004_3785_photo92//photo_gd12090322271.jpg
+	
+	1、用 , 拆解參數 list
+	2、先取出陣列前兩個值，其代表：
+		[0] topic
+          	[1] date
+	3、album forder path：[0] + [1]
+	4、取得真正圖檔路徑(real image path)
+		第[1]後面的所有值只有一個是真正的圖片(有的為縮圖、預覽圖，不抓)
+	　　	判斷為 activephoto/ 開頭表示為真正圖檔路徑
+	5、組合圖檔URL
+	   	image base URI + real image path
+	     範例：
+		http://web.stps.tp.edu.tw/eweb/module/activephoto/activephoto/k004/k004_3785_photo92//photo_gd19024334428.jpg
+	6、Add imageURL string To List<string> imageUrlList
+	7、Add key(album forder path) and value(image URL string) To Dictionary<string, List<string> albumDict
+
+五、依據 albumDictionary 產生 圖片文件(JSON)
+
+六、依據 albumDictionary 跑迴圈
+	建立目錄至 ../{{album forder path}}
+	依序下載圖檔到../{{album forder path}}/
+
+nlog記錄成功、失敗結果
+
+
